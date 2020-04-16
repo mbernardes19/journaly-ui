@@ -7,7 +7,6 @@ import NotifyService from '../../services/NotifyService'
 import EventEmitter from '../../utils/EventEmitter';
 
 function TextEditor({content}) {
-
     const _createEditorState = (content) => {
         return !content ? EditorState.createEmpty() : 
             EditorState.createWithContent(ContentState.createFromText(content))
