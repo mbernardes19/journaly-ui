@@ -1,0 +1,12 @@
+.left {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10px;
+}
+
+.right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-top: 10px;
+}

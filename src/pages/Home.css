@@ -1,0 +1,20 @@
+.App {
+  margin: 20px;
+}
+
+.text-container {
+  width: 2000px;
+  height: 200px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+.header-text {
+  font-size: 1.3em;
+}

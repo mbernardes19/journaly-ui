@@ -1,0 +1,31 @@
+.public-DraftEditorPlaceholder-inner {
+    color: grey;
+}
+
+.editor-container {
+    height: 200px;
+    border: 1px solid black;
+    cursor: text;
+    background-color: white;
+}
+
+.save-button {
+    background-color: #2A9FE0;
+    border-radius: 10px;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+  }
+  
+  .button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+
+  .notify-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
