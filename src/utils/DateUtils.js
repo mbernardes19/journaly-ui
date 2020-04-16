@@ -5,8 +5,8 @@ export const _convertDate = (dateString) => {
     const year = dateObj.getFullYear();
     const termination = _getDayTermination(dateObj.getDate());
     const reg = new RegExp(/(?<= )(\d*):(\d*):\d* (\D*)/gm)
-    console.log(dateObj.toLocaleString())
-    const time = reg.exec(dateObj.toLocaleString());
+    console.log(dateObj.toLocaleString('en-US'))
+    const time = reg.exec(dateObj.toLocaleString('en-US'));
     const hour = time[1]
     const minutes = time[2]
     const timePeriod = time[3]
