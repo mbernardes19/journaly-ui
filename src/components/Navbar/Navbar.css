@@ -4,6 +4,7 @@
 
 .nav-item {
     font-size: 1.2em;
+    font-weight: 400;
 }
 
 a {
@@ -15,11 +16,19 @@ ul {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-}
-
-li:first-child {
+    list-style-type: none;
 }
 
 li:not(:first-child) {
-    margin-left: auto;    
+    margin-left: auto;
+    display: inline;
+}
+
+.nav-links {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nav-links > a {
+    margin-right: 20px;
 }

@@ -38,8 +38,7 @@ function TextEditor({content}) {
             NotifyService.notifySuccess();
             EventEmitter.dispatch('updateJournalEntries', true)
             setEditorState(EditorState.createEmpty())
-        } catch(e) {
-            console.error(e)
+        } catch(err) {
             NotifyService.notifyError();
             console.error(SERVER_ERROR_MESSAGE);
         }
