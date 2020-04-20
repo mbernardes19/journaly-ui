@@ -31,8 +31,8 @@ function SignUp() {
   return (
     <>
       <form className="form" method="POST" onSubmit={saveUser}>
-        <label className="form-label">Name</label>
-        <input className="form-input" name="name" type="text"/>
+        <label className="form-label">Username</label>
+        <input className="form-input" name="username" type="text"/>
         <label className="form-label">Email</label>
         <input className="form-input" name="email" type="email"/>
         <label className="form-label">Password</label>

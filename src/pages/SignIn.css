@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-flow: column wrap;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-label {
+  margin-top: 15px;
+}
+
+.form-submit-button {
+  margin-top: 15px;
+  height: 25px;
+}
